@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;800&family=Roboto:wght@400;900&family=Sigmar&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #333;
+  font-family: 'Roboto', sans-serif;
+  color: #fff;
+}
+  
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -2;
+  }
+  
+.title {
+  margin-top: 30px;
+  font-weight: bold;
+}
+
+.gray { color: #aaa; }
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.lg-txt { text-transform: uppercase; }
+
+.large {
+  font-size: 10rem;
+  text-transform: uppercase;
+  line-height: 8rem;
+  letter-spacing: -1px;
+  margin-top: 100px;
+  max-width: 1100px;
+  text-shadow: 1px 1px 5px #333;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  padding: 30px 40px;
+}
+
+.showcase {
+  z-index: 5;
+}
+
+.showcaseDisplay {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.description {
+  width: 500px;
+  text-align: center;
+  line-height: 1.6rem;
+  margin-top: 40px;
+  text-shadow: 0px 0px 5px #333;
+}
+
+.btn {
+  text-transform: uppercase;
+  font-family: inherit;
+  font-weight: bold;
+  border: 1px solid #fff;
+  padding: 20px 40px;
+  border-radius: 50px;
+  margin: 30px;
+  background: rgba(0, 0, 0, 0.1);
+}
+
+.btn:hover {
+  color: #333;
+  background: #fff;
+  border: none;
+}
+
+.btn-light {
+  background: #fff;
+  color: #333;
+  display: block;
+  width: 215px;
+  margin-top: 5px;
+  padding: 15px 25px;
+  border: none;
+  border-radius: 25px;
+}
+
+.btn-light:hover { opacity: 0.9; }
+
+/* notification */
+.containerNotified {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: auto auto;
+  height: 100vh;  
+}
+.containerNotified h3 {
+  margin: 20px;
+}
+.orange {
+  color: #fdd106;
+}
+
+/* Form */
+input {
+  padding: 15px 25px;
+  border: none;
+  border-radius: 25px;
+  color: #333;
+  background: #444;
+  margin-bottom: 10px;
+}
+
+select {
+  padding: 15px 25px;
+  border: none;
+  border-radius: 25px;
+  color: #808080;
+  background: #444;
+  margin-bottom: 10px;
+  width: 215px;
+}
+option {
+  background: white;
+}
+
+.terms {
+  width: 215px;
+  margin-top: 20px;
+  text-align: center;
+  font-size: 14px;
+  color: #808080;
+}
+
